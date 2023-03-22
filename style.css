@@ -1,17 +1,23 @@
+/*this is my css style page*/
 html {
     font-size: 10px; 
-    
     
   }
   h1 {
     font-size: 60px;
     text-align: center;
     margin: 0;
-    padding: 20px 0;
-    color: #43175d;
-    text-shadow: 3px 3px 1px rgb(255, 255, 255);
-    font-family: "Sofia";
-    background-color: mediumaquamarine;
+    color: white;
+    border: 15px double white;
+    text-shadow: 2px 2px 1px grey;
+    font-family: "tilt warp";
+    background-color: lavender;
+    padding: 60px;
+    background-image: url('../images/pink_and_blue_unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
   }
   
   p, li {
@@ -23,16 +29,15 @@ html {
     
   }
   body {
-    width: 800px;
+    width: auto;
     margin: 0 auto;
-    
-    padding: 0 20px 20px 20px;
-    border: 0px solid rgb(255, 255, 255);
     
   }
   img {
     display: block;
     margin: 0 auto;
+    padding: 20px;
+    border: 10px double white;
     
   }
 .events {
@@ -50,5 +55,8 @@ ul li {
 }
 .maintext {
   background-color: lavender;
-  background-clip:border-box;
+  padding: 50px;
+  border: 0;
+  margin: 0;
+  
 }
