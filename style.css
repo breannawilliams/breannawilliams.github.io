@@ -12,7 +12,7 @@ html {
     text-shadow: 2px 2px 1px grey;
     font-family: "tilt warp";
     background-color: lavender;
-    padding: 60px;
+    padding: 100px;
     background-image: url('../images/pink_and_blue_unsplash.jpg');
     background-repeat: no-repeat;
     background-position: center;
@@ -38,17 +38,51 @@ html {
     margin: 0 auto;
     padding: 20px;
     border: 10px double white;
-    
+    height: 500px;
+  
+  }
+.toptext {
+  position: relative;
+  
+}
+
+  .sidebutton {
+    position: absolute;
+    top: 25%;
+    right: 40px;
+    border: 8px double white;
+    background-color: #e87ba5;
+    font-family: "Quicksand";
+    font-size: 20px;
+    padding: 20px;
   }
 .events {
   font-size: 16px;
     line-height: 1;
     letter-spacing: 1px;
+    background: linear-gradient(-45deg, #ee7752, #e73d7e, #23a6d5, #23D5a8);
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+    padding: 25px;
+
     
+}
+
+@keyframes change {
+  0%{
+    background-position: 0 50%;
+  }
+  50%{
+    background-position: 100% 50%;
+  }
+  100%{
+    background-position: 0 50%;
+  }
+ 
 }
 div {
   font-family: "Tilt Warp", sans-serif;
-  font-style: italic;
 }
 ul li {
   font-family: "Sofia";
@@ -58,5 +92,6 @@ ul li {
   padding: 50px;
   border: 0;
   margin: 0;
+  position: relative;
   
 }
