@@ -66,6 +66,16 @@ html {
     grid-row: 1;
   }
 
+.cloud {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.cloudimg {
+  width: 100%;
+  height: auto;
+}
+
 .events {
   grid-column: 2/6;
   grid-row: 2;
