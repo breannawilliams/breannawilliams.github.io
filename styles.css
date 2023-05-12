@@ -1,0 +1,159 @@
+/*this is my css style page*/
+html {
+    margin: auto;
+    
+}
+body {
+    margin: 0;
+    padding: 0;
+    
+}
+h1 {
+    font-size: 100px;
+    text-align: center;
+    margin: 0;
+    padding: 50px;
+    padding-top: 200px;
+    font-family: "Lavishly Yours";
+    font-weight: lighter;
+    color: rgb(0, 0, 0);
+}
+h2 {
+    text-align: center;
+    margin: none;
+    padding: 10px;
+    padding-bottom: 200px;
+    color: rgb(80, 80, 92);
+    font-family: "fira sans";
+    font-size: 20px;
+}
+.bodytext {
+    padding: 40px 30% 40px 30%;
+    font-family: "handlee";
+    
+}
+.headd {
+    background-image: url('../images/dominik-schroder-FIKD9t5_5zQ-unsplash.jpg');
+    background-repeat: none;
+    background-position: center;
+    background-size:cover;
+}
+.paragraphs {
+   font-size: auto;
+}
+.footer {
+    background-color: lightgrey;
+    position:relative;
+}
+.contactme {
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+}
+.firstwebsite {
+    display: grid;
+    grid-template-columns: repeat(2);
+    grid-auto-rows: minmax(100px, auto);
+    gap: 10px;
+}
+.img1 {
+    grid-column: 1;
+    grid-row: 1;
+    margin: 0;
+    width: 75%;
+    height: auto;
+    padding: 50px 5% 50px 20%;
+}
+.p1 {
+    grid-column: 2;
+    grid-row: 1;
+    padding: 50px 20% 50px 0;
+    font-family: "handlee";
+    font-size: larger;
+}
+.img2 {
+    grid-column: 2;
+    grid-row: 2;
+    margin: 0;
+    width: 80%;
+    height: auto;
+    padding: 50px 20% 50px 0;
+}
+.p2 {
+    grid-column: 1;
+    grid-row: 2;
+    padding: 50px 5% 50px 20%;
+    font-family: "handlee";
+    font-size: larger;
+    text-align: right;
+}
+.img3 {
+    grid-column: 1;
+    grid-row: 3;
+    margin: 0;
+    width: 75%;
+    height: auto;
+    padding: 50px 5% 50px 20%;
+}
+.p3 {
+    grid-column: 2;
+    grid-row: 3;
+    padding: 50px 20% 50px 0;
+    font-family: "handlee";
+    font-size: larger;
+}
+.header {
+    position: relative;
+    text-align: right;
+    padding: 30px 5% 0 0;
+    font-size: 20px;
+    font-family: "fira sans";
+    text-decoration: none;
+}
+.buttons {
+    padding: 0 0 0 10px;
+    color: black;
+}
+.biography {
+    display: grid;
+    grid-template-columns: repeat(2);
+    grid-auto-rows: minmax(100px, auto);
+    gap: 10px;
+}
+.biotext {
+    grid-column: 2;
+    grid-row: 1;
+    padding: 15% 30% 50px 5%;
+    font-family: "fira sans";
+    font-size: 27px;
+
+}
+.bioimg {
+    grid-column: 1;
+    grid-row: 1;
+    width: 60%;
+    height: auto;
+    padding: 15% 0 100px 40%;
+
+}
+@media (max-width: 1200px) {
+    .biotext {
+        padding: 10% 25% 40px 5%;
+        font-size: 22px;
+    }
+    .bioimg {
+        padding: 10% 0 100px 35%;
+    }
+}
+@media (max-width: 1000px) {
+    .biotext {
+        font-size: 16px;
+        padding: 10% 20% 40px 5%;
+    }
+    .bioimg {
+        padding: 15% 20% 50px 30%;
+    }
+    .p1, .p2, .p3 {
+        font-size:medium;
+    }
+}
